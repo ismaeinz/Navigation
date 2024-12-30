@@ -20,7 +20,7 @@ fun B(navController: NavController) {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = "A")
+        Text(text = "B")
         Spacer(modifier = Modifier.width(10.dp))
         Button(onClick = { navController.navigate("A") }) {
             Text(text = "Go To A")

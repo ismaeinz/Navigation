@@ -41,6 +41,8 @@ android {
 
 dependencies {
     implementation("androidx.navigation:navigation-compose:2.8.4")
+    implementation ("androidx.compose.material:material:1.4.2")
+
 
 
     implementation(libs.androidx.core.ktx)
